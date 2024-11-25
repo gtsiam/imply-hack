@@ -1,0 +1,13 @@
+[package]
+name = "imply-hack"
+description = "Implied bounds, since 1.79!"
+authors = ["George Tsiamasiotis <gtsiam@windowslive.com>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/gtsiam/imply-hack"
+
+# Relies on associated type bounds[^1], which were stabilized in rust 1.79
+#
+# [^1]: https://github.com/rust-lang/rust/pull/122055/#issue-2170532454
+rust-version = "1.79"
